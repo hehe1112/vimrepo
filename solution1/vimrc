@@ -1,0 +1,21 @@
+set nocompatible
+set backspace=indent,eol,start
+syntax on
+set number
+set ruler
+set shiftwidth=4
+set tabstop=4
+filetype plugin indent on
+set ignorecase smartcase
+set incsearch
+set hlsearch
+set noerrorbells
+set smartindent
+set foldmethod=syntax
+set showmatch
+set ts=4
+set expandtab
+"autocmd FileType python set tabstop=4 shiftwidth=4 expandtab
+"autocmd FileType python set noexpandtab
+autocmd FileType lua set noexpandtab
+autocmd FileType python map <F12>:!python %<CR>
