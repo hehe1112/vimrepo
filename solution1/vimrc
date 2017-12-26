@@ -19,3 +19,4 @@ set expandtab
 "autocmd FileType python set noexpandtab
 autocmd FileType lua set noexpandtab
 autocmd FileType python map <F12>:!python %<CR>
+set nobackup
